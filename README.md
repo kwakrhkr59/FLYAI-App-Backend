@@ -28,27 +28,27 @@ SKT FLY AI 6기 패기반 TEAM3
     
 3. 가상환경 생성
     
-    ```python
+    ```bash
     cd Back-End
     python -m venv venv
     ```
     
 4. 가상환경 활성화
     
-    ```python
+    ```bash
     source venv/bin/activate  # Mac/Linux
     venv\Scripts\activate     # Windows
     ```
     
 5. FastAPI 설치
     
-    ```python
+    ```bash
     pip install fastapi uvicorn
     ```
     
 6. 서버 실행
     
-    ```python
+    ```bash
     uvicorn main:app --reload
     ```
     
