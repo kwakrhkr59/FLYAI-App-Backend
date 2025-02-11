@@ -4,7 +4,7 @@ SKT FLY AI 6기 패기반 TEAM3
 ## 개발환경 설정
 1. 깃허브 레포지토리 클론
     
-    ```python
+    ```bash
     cd Project
     git clone https://github.com/SKT-FLY-AI-project/Back-End
     ```
