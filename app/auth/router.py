@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
-from ..database import get_db
-from .service import view_all, login_user, signup_user
+from app.database import get_db
+from app.auth.service import view_all, login_user, signup_user
 
 router = APIRouter(prefix="/auth", tags=["Auth"])
 
